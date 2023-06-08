@@ -1,0 +1,10 @@
+import { Link } from "react-router-dom"
+const HomeAcoount = ()=>{
+    return(
+        <div>
+            <Link to="/">Create</Link>
+            <Link to="/users">User</Link>
+        </div>
+    )
+}
+export default HomeAcoount
